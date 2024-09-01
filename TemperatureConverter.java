@@ -15,7 +15,7 @@ public class TemperatureConverter extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        // Custom panel with background image
+       
         ImagePanel panel = new ImagePanel(new ImageIcon("background.jpg").getImage());
         add(panel);
         panel.setLayout(null);
@@ -107,7 +107,7 @@ public class TemperatureConverter extends JFrame {
     }
 }
 
-// Custom JPanel class for background image
+
 class ImagePanel extends JPanel {
     private Image backgroundImage;
 
